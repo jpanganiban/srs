@@ -18,9 +18,9 @@ Although parentheses are optional in Ruby, prefer to always put them so that you
 
 ```rb
 # ✓ OK
-if model.valid?()
+if model.valid?();
   return false;
-end
+end;
 ```
 
 ```rb
